@@ -43,6 +43,7 @@ main {
 }
 
 .first-section {
+    padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -63,3 +64,18 @@ main {
 }
 
 /* SECTION-2 */
+.second-section {
+    height: 300px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.second-section .pink {
+    width: 60%;
+    background-color: blueviolet;
+}
+
+.second-section .blue {
+    width: 40%;
+    background-color: blue;
+}
