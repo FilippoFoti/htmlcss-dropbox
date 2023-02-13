@@ -5,26 +5,135 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
 .header {
     height: 70px;
     width: 100%;
-    background-color: grey;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
 }
 
-.jumbotron {
-    height: 500px;
-    width: 100%;
-    background-color: aquamarine;
+.header-left {
+    padding-left: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    /* height: 70px; */
+}
+
+.header-right {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    /* height: 35px; */
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* DEBUG */
+    /* height: 70px; */
+}
+
+.header ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    height: 70px;
+    display: flex;
     align-items: center;
 }
 
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.start {
+    padding: 5px 15px;
+    margin-left: 20px;
+    background-color: rgba(21,110,255,255);
+    border-color: rgba(21,110,255,255);
+    color: white;
+}
+
+.jumbotron {
+    /* height: 500px; */
+    width: 100%;
+    background-color: rgba(180,208,231,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    /* DEBUG */
+}
+
 .container {
-    height: 400px;
     width: 60%;
-    background-color: white;
+    /* DEBUG */
+    /* background-color: white; */
+    /* height: 400px; */
+}
+
+h1 {
+    font-size: 3.8rem;
+    padding-top: 40px;
+}
+
+.jumbo-container {
+    display: flex;
+    position: relative;
+}
+
+.text-title {
+    width: 35%;
+    padding-top: 40px;
+}
+
+.start-gratis {
+    padding: 5px 15px;
+    margin: 20px 0;
+    background-color: rgba(21,110,255,255);
+    border-color: rgba(21,110,255,255);
+    color: white;
+    font-size: 1rem;
+}
+
+.jumbo-container p {
+    font-size: 0.85rem;
+}
+
+.text-title span i {
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.img.title {
+    /* width: 65%; */
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 320px;
 }
 
 /* MAIN */
