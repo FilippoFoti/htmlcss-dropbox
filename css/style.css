@@ -1,6 +1,28 @@
 /* RESET */
 * {
     padding: o;
-    left: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+}
+
+.jumbotron {
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 60%;
+    background-color: white;
 }
