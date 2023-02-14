@@ -26,7 +26,7 @@ img {
     top: 0;
     left: 0;
     z-index: 999;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px -7px 14px black;
 
 }
 
@@ -321,19 +321,47 @@ hr {
 
 /* SECTION-2 */
 .section-2 {
-    height: 300px;
     display: flex;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    gap: 30px;
+}
+
+.section-2 .col-img {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.section-2 .col-partner {
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.col-partner h3 {
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.col-partner p {
+    font-size: 0.85rem;
     padding-bottom: 20px;
 }
 
-.section-2 .pink {
-    width: 60%;
-    background-color: blueviolet;
+.button-partner {
+    font-size: 0.75rem;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    /* display: inline-block; */
+    /* text-align: center; */
 }
 
-.section-2 .blue {
-    width: 40%;
-    background-color: blue;
+.button-partner:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* SECTION-3 */
