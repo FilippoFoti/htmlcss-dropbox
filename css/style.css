@@ -66,9 +66,14 @@ img {
     padding: 5px 15px;
     text-decoration: none;
     font-size: 0.8rem;
-    background-color: rgba(21,110,255,255);
-    border-color: rgba(21,110,255,255);
+    background-color: rgba(21,110,255,1);
+    border-color: rgba(21,110,255,1);
     color: white;
+}
+
+.start:hover {
+    background-color: rgba(21,110,255,0.8);
+    border-color: rgba(21,110,255,0.8);
 }
 
 .jumbotron {
@@ -107,9 +112,14 @@ h1 {
     font-size: 0.85rem;
     text-decoration: none;
     padding: 7px 15px;
-    background-color: rgba(21,110,255,255);
-    border-color: rgba(21,110,255,255);
+    background-color: rgba(21,110,255,1);
+    border-color: rgba(21,110,255,1);
     color: white;
+}
+
+.start-gratis:hover {
+    background-color: rgba(21,110,255,0.8);
+    border-color: rgba(21,110,255,0.8);
 }
 
 .jumbo-container p {
@@ -217,12 +227,17 @@ h2 {
     font-size: 0.75rem;
     text-decoration: none;
     padding: 7px 15px;
-    background-color: rgba(21,110,255,255);
-    border-color: rgba(21,110,255,255);
+    background-color: rgba(21,110,255,1);
+    border-color: rgba(21,110,255,1);
     color: white;
     width: 100%;
     display: inline-block;
     text-align: center;
+}
+
+.days-30:hover {
+    background-color: rgba(21,110,255,0.8);
+    border-color: rgba(21,110,255,0.8);
 }
 
 .card .buy {
@@ -291,12 +306,17 @@ hr {
     font-size: 0.75rem;
     text-decoration: none;
     padding: 7px 15px;
-    background-color: rgba(21,110,255,255);
-    border-color: rgba(21,110,255,255);
+    background-color: rgba(21,110,255,1);
+    border-color: rgba(21,110,255,1);
     color: white;
     width: 100%;
     display: inline-block;
     text-align: center;
+}
+
+.contact:hover {
+    background-color: rgba(21,110,255,0.8);
+    border-color: rgba(21,110,255,0.8);
 }
 
 /* SECTION-2 */
