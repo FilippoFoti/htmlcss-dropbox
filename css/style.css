@@ -26,6 +26,8 @@ img {
     top: 0;
     left: 0;
     z-index: 999;
+    box-shadow: 0px 0px 1px black;
+
 }
 
 .nav-header {
@@ -128,7 +130,7 @@ h1 {
 /* MAIN */
 
 /* SECTION-1 */
-/* .container-main {
+.container-main {
     width: 50%;
     margin: 0 auto;
     padding-top: 150px;
@@ -138,13 +140,14 @@ h2 {
     font-size: 1.8rem;
 }
 
-.fatt {
+.billing {
     list-style-type: none;
     display: flex;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    padding: 30px 0 20px 0;
 }
 
-.fatt li:last-child{
+.billing li:last-child{
     margin-left: 20px;
 }
 
@@ -172,12 +175,12 @@ h2 {
 }
 
 .card {
-    padding: 30px 20px;
+    padding: 30px 20px 0 20px;
 }
 
 .card h3 {
     font-size: 1.3rem;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .card span {
@@ -187,7 +190,7 @@ h2 {
 
 .card .grey {
     color: grey;
-    padding-bottom: 40px;
+    padding: 8px 0 40px 0;
 }
 
 .card ul {
@@ -217,6 +220,9 @@ h2 {
     background-color: rgba(21,110,255,255);
     border-color: rgba(21,110,255,255);
     color: white;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 .card .buy {
@@ -224,21 +230,74 @@ h2 {
 }
 
 .card .blue {
-    color:  rgba(21,110,255,255);
+    color: rgba(58, 62, 241, 1);
 }
 
-/* .line {
-    border-bottom: 1px solid rgba(236, 236, 238, 1);
-    width: 80px;
-    margin: 20px 0;
-} */
+hr {
+    border-radius: 1px soli grey;
+    width: 40px;
+    margin: 20px 0 30px 0;
+}
+
+.card h4 {
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+}
+
+.card .check i {
+    color: rgba(21,110,255,255);
+    font-size: 0.8rem;
+}
 
 .row {
     width: 100%;
     margin: 0 auto;
-    height: 100px;
-    background-color: black;
-} */
+    border: 3px solid rgba(236, 236, 238, 1);
+}
+
+.card-row {
+    padding: 30px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-row {
+    /* width: calc(100% / 3 - (40px / 3)); */
+    width: 73%;
+    margin: 0 auto;
+}
+
+.col-row h3 {
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.col-row span {
+    font-size: 0.7rem;
+    padding-bottom: 15px;
+}
+
+.col-row p {
+    font-size: 0.7rem;
+    padding: 40px 0 15px 0;
+}
+
+.col-button {
+    width: 27%;
+    margin: 0 auto;
+}
+
+.contact {
+    font-size: 0.75rem;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: rgba(21,110,255,255);
+    border-color: rgba(21,110,255,255);
+    color: white;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
 
 /* SECTION-2 */
 .section-2 {
