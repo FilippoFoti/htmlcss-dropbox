@@ -252,7 +252,7 @@ h2 {
     color: rgba(58, 62, 241, 1);
 }
 
-hr {
+.card-hr {
     /* border-radius: 1px solid grey; */
     width: 40px;
     margin: 20px 0 30px 0;
@@ -579,9 +579,12 @@ hr {
 
 /* SECTION 6 */
 .section-6 {
-    /* height: 400px; */
-    /* background-color: brown; */
-    margin-bottom: 20px;
+    padding-bottom: 100px;
+    margin-top: -50px;
+}
+
+.section-6 h2 {
+    padding-bottom: 50px;
 }
 
 .questions {
@@ -591,7 +594,33 @@ hr {
 
 .advanced {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.advanced h5 {
+    padding: 30px 0;
+    font-size: 0.75rem;
+}
+
+.advanced i {
+    position: absolute;
+    top: 30px;
+    left: 95%;
+}
+
+.advanced p {
+    display: none;
+    font-size: 0.7rem;
+    padding-bottom: 30px;
+}
+
+.advanced:hover p {
+    display: block;
+}
+
+.advanced:hover i {
+    rotate: 180deg;
 }
 
 /* FOOTER */
