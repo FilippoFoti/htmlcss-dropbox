@@ -416,7 +416,7 @@ hr {
 /* SECTION-5 */
 .section-5 {
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     background-color: rgba(180, 208, 231, 1);
     display: flex;
     flex-wrap: wrap;
@@ -536,6 +536,43 @@ hr {
 .company p {
     font-size: 0.80rem;
     padding-bottom: 25px;
+}
+
+.row-box {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-row-box {
+    width: calc(100% / 2);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.col-row-box h2 {
+    padding: 85px 0;
+    color: rgba(97, 8, 43, 1);
+}
+
+.button-col-row-box {
+    font-size: 0.75rem;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button-col-row-box:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* SECTION 6 */
