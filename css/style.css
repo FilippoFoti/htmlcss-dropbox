@@ -626,14 +626,54 @@ h2 {
 /* FOOTER */
 footer {
     width: 100%;
-    height: 400px;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* .footer {
-    height: 300px;
-    background-color: aqua;
+.footer {
+    width: 60%;
+    display: flex;
+}
+
+.col-footer {
+    width: calc(100% / 5);
+    margin: 0 auto;
+}
+
+.col-footer h3 {
+    color: white;
+    padding: 50px 0 20px 0;
+    font-size: 1rem;
+}
+
+.col-footer li {
+    padding: 4px 0;
+}
+
+.col-footer li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.hr-footer {
+    margin: 70px 0 35px 0;
+    width: 90px;
+}
+
+.col-footer p {
+    color: white;
+    font-size: 0.8rem;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 77px;
+}
+
+/* .col-footer span {
+    padding: 0 5px;
+    font-size: 0.7rem;
 } */
