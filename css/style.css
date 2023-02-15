@@ -525,12 +525,12 @@ h2 {
 
 .scroll img {
     filter: invert(0);
-    padding-bottom: 15px;
 }
 
 .hr-designit {
     width: 80px;
     color: grey;
+    margin: 30px 0;
     /* border-radius: 1px solid grey; */
     /* margin: 20px 0 30px 0; */
 }
@@ -672,8 +672,3 @@ footer {
     justify-content: space-between;
     width: 77px;
 }
-
-/* .col-footer span {
-    padding: 0 5px;
-    font-size: 0.7rem;
-} */
