@@ -426,7 +426,8 @@ hr {
 .company {
     width: calc(100% / 3);
     margin: 0 auto;
-    height: 500px;
+    /* height: 500px; */
+    height: calc(100vw / 3);
     background-color: rgba(245, 245, 245, 1);
     display: flex;
     flex-wrap: wrap;
@@ -515,7 +516,8 @@ hr {
 }
 
 .scroll {
-    height: 500px;
+    /* height: 500px; */
+    height: calc(100vw / 3);
     overflow: auto;
     padding: 40px;
     display: inline-block;
@@ -577,9 +579,19 @@ hr {
 
 /* SECTION 6 */
 .section-6 {
-    height: 400px;
-    background-color: brown;
+    /* height: 400px; */
+    /* background-color: brown; */
     margin-bottom: 20px;
+}
+
+.questions {
+    color: grey;
+    width: 100%;
+}
+
+.advanced {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* FOOTER */
