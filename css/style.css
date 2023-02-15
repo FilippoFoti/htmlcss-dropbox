@@ -638,7 +638,7 @@ footer {
 }
 
 .col-footer {
-    width: calc(100% / 5);
+    /* width: calc(100% / 5); */
     margin: 0 auto;
 }
 
